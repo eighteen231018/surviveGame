@@ -1,0 +1,32 @@
+# Roblox Place Files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Rojo
+.rojo-sourcemap.json
+*.project.lock.json
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

@@ -1,0 +1,3 @@
+local ExampleStorage = {}
+
+return ExampleStorage
