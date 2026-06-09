@@ -1,5 +1,4 @@
-# Roblox Place Files
-*.rbxl
+# Roblox Place Files (保留二进制项目文件，便于直接在 Studio 中打开)
 *.rbxlx
 *.rbxm
 *.rbxmx
