@@ -104,19 +104,9 @@ end
 local function createEmptyChestData()
 	local slots = {}
 	for i = 1, CHEST_SLOT_COUNT do
-		slots[i] = nil  -- nil = 空
+		slots[i] = nil
 	end
 	return { Slots = slots }
-end
-
--- 尝试保存箱子数据
-local function saveChestData(chestId, data)
-	chestDataCache[chestId] = data
-	if dataStoreReady then
-		pcall(function()
-			chestDataStore:SetAsync(chestId, data)
-		end)
-	end
 end
 
 -- 尝试加载箱子数据

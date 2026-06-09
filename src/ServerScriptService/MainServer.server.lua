@@ -149,6 +149,14 @@ ChestInteractionManager.Init(
 
 if savedChests and #savedChests > 0 then
     ChestSystem.RestoreAllChestsFromSave(savedChests)
+else
+    print("📦 [Main] 没有保存的箱子，生成默认箱子...")
+    for i = 1, 5 do
+        local x = math.random(-40, 40)
+        local z = math.random(-40, 40)
+        ChestSystem.SpawnChestDrop(Vector3.new(x, 3, z))
+        task.wait(0.2)
+    end
 end
 
 -- 巢穴系统初始化（有保存数据则恢复，无保存数据则随机生成）
