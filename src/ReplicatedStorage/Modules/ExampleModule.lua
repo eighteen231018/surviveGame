@@ -1,3 +1,0 @@
-local ExampleModule = {}
-
-return ExampleModule

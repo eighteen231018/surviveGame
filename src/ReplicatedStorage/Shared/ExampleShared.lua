@@ -1,3 +1,0 @@
-local ExampleShared = {}
-
-return ExampleShared

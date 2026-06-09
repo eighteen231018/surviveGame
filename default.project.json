@@ -1,3 +1,4 @@
+
 {
   "name": "SurvivalChallenge",
   "tree": {
@@ -8,37 +9,25 @@
         "$className": "Folder",
         "$path": "src/ReplicatedStorage/Modules"
       },
-      "Shared": {
+      "Monsters": {
         "$className": "Folder",
-        "$path": "src/ReplicatedStorage/Shared"
+        "$path": "src/ReplicatedStorage/Monsters"
       }
     },
     "ServerScriptService": {
       "$className": "ServerScriptService",
       "$path": "src/ServerScriptService"
     },
-    "StarterPlayerScripts": {
-      "$className": "StarterPlayerScripts",
-      "$path": "src/StarterPlayerScripts"
-    },
     "StarterPlayer": {
       "$className": "StarterPlayer",
-      "StarterCharacterScripts": {
-        "$className": "StarterCharacterScripts",
-        "$path": "src/StarterCharacterScripts"
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/StarterPlayerScripts"
       }
     },
-    "Workspace": {
-      "$className": "Workspace"
-    },
-    "Lighting": {
-      "$className": "Lighting"
-    },
-    "ReplicatedFirst": {
-      "$className": "ReplicatedFirst"
-    },
     "StarterGui": {
-      "$className": "StarterGui"
+      "$className": "StarterGui",
+      "$path": "src/StarterGui"
     },
     "ServerStorage": {
       "$className": "ServerStorage",
@@ -46,3 +35,4 @@
     }
   }
 }
+

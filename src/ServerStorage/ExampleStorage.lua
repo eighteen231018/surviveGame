@@ -1,3 +1,0 @@
-local ExampleStorage = {}
-
-return ExampleStorage
